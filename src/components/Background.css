@@ -1,0 +1,16 @@
+.mainImage {
+    height: 100vh;
+}
+
+.title {
+    font-size: 57px;
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+}
+
+.titleLine {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
