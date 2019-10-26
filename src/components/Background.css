@@ -3,14 +3,22 @@
 }
 
 .title {
+    display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
     font-size: 57px;
     padding-top: 180px;
     text-align: center;
+    justify-content: center;
     color: white;
 }
 
 .titleLine {
-    padding: 50px;
+    display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    padding: 2px 50px;
     text-align: center;
+    justify-content: center;
     color: white;
 }

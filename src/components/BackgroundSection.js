@@ -6,18 +6,20 @@ import Header from './header'
 
 import BackgroundImage from 'gatsby-background-image'
 
-const BackgroundSection = ({ className }) => (
+const BackgroundSection = ({ title }) => (
   <StaticQuery
     query={graphql`
       query {
         desktop: file(relativePath: { eq: "laptopBG.jpg" }) {
           childImageSharp {
-            fluid(quality: 99) {
+            fluid(
+              quality: 99
+              ) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
-      }
+      } 
     `}
     render={data => {
       const imageData = data.desktop.childImageSharp.fluid
@@ -28,8 +30,9 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
         >
         <Header />
-          <h1 className="title">Hi, Im Martin</h1>
-          <p className="titleLine">I build fase, really fast websites and applications</p>
+        {title}
+          <h1 className="title">Hi, I'm Martin</h1>
+          <p className="titleLine">I build fast, really fast, websites and applications</p>
         </BackgroundImage>
       )
     }}

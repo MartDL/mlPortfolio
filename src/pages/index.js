@@ -6,9 +6,11 @@ import Layout from "../components/layout";
 
 
 const IndexPage = ({title}) => (
- <Layout>
-   <BackgroundSection title="Hi Im Martin!!!"/>
- </Layout>
+  <div>
+  <Layout>
+    <BackgroundSection />
+  </Layout>
+ </div>
 )
 
 export default IndexPage
