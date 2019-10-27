@@ -9,6 +9,7 @@ const Header = () => {
         <header className={headerStyles.header}>
            <nav>
               <ul className={headerStyles.navList}>
+                {/* <li><Link className={headerStyles.left}>Home</Link></li> */}
                 <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">about</Link></li>
                 <li><a href="https://github.com/MartDL" target="_blank" className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}>github</a></li>
                 <li><a href="https://www.instagram.com/mdlcodes/" className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem}>instgram</a></li>

@@ -1,0 +1,63 @@
+.mainTitle {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.itsMartin {
+    margin-top: 59px;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.subTitle {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.mainTitle:hover,
+.itsMartin:hover,
+.subTitle:hover {
+    color: rgb(165, 37, 159);
+}
+
+
+@media screen and (max-width:500px){
+    .mainTitle {
+        font-size: 55px;
+        text-align: left;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .itsMartin {
+        font-size: 35px;
+        text-align: left;
+        margin-left: 5px;
+        padding-top: 28px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .subTitle {
+        font-size: 38px;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:321px){
+    .itsMartin {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:321px){
+    .mainTitle {
+        font-size: 40px;
+    }
+}
