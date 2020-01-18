@@ -1,63 +1,76 @@
-.mainTitle {
-    font-size: 65px;
-    font-weight: 900;
-}
-
-.itsMartin {
+.nameTitle {
     margin-top: 59px;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 300;
     margin-bottom: 10px;
 }
 
-.subTitle {
+.mainHeadline {
     font-size: 55px;
+    font-weight: 900;
+}
+
+.subHeadline {
+    font-size: 45px;
     font-weight: 400;
+    padding-bottom: 60px;
     margin-bottom: 10px;
     margin: 0 auto;
 }
 
-.mainTitle:hover,
-.itsMartin:hover,
-.subTitle:hover {
+.mainHeadline:hover,
+.nameTitle:hover,
+.subHeadline:hover {
     color: rgb(165, 37, 159);
 }
 
-
-@media screen and (max-width:500px){
-    .mainTitle {
+@media screen and (min-width:576px){
+    .nameTitle {
+        font-size: 40px;
+    }
+    .mainHeadline {
         font-size: 55px;
-        text-align: left;
-        margin-left: 5px;
+    }
+    .subHeadline {
+        font-size: 47px;
     }
 }
 
-@media screen and (max-width:500px){
-    .itsMartin {
-        font-size: 35px;
+@media screen and (min-width:768px){
+    .nameHeadline {
+        font-size: 45px;
         text-align: left;
         margin-left: 5px;
         padding-top: 28px;
     }
-}
-
-@media screen and (max-width:500px){
-    .subTitle {
-        font-size: 38px;
+    .mainHeadline {
+        font-size: 57px;
+        text-align: left;
+    }
+    .subHeadline {
+        font-size: 49px;
         text-align: left;
         margin-left: 5px;
         margin-bottom: 25px;
     }
 }
 
-@media screen and (max-width:321px){
-    .itsMartin {
-        font-size: 28px;
+@media screen and (min-width:992px){
+    .nameHeadline {
+        font-size: 47px;
+        text-align: left;
+        margin-left: 5px;
+        padding-top: 28px;
+    }
+    .mainHeadline {
+        font-size: 59px;
+        text-align: left;
+    }
+    .subHeadline {
+        font-size: 51px;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 25px;
     }
 }
 
-@media screen and (max-width:321px){
-    .mainTitle {
-        font-size: 40px;
-    }
-}
